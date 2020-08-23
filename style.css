@@ -1,13 +1,14 @@
 h1 {
     color: brown;
     align-content: center;
-    text-align: center;
+    text-align: left;
 }
 
 body {
-    background-image: url("qAM1Rl.jpeg");
+    background-image: url("tiger.jpg");
     border-image-width: 0px;
-    background-size: 1368px 720px;
+    background-size: 1368px 1080px;
+    background-repeat: no-repeat;
 }
 
 p {
@@ -30,17 +31,17 @@ button {
     background-color: #4CAF50;
     /* Green */
     border: none;
-    color: white;
-    padding: 15px 32px;
+    color: black;
+    padding: 10px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 32px;
+    font-size: 20px;
 }
 
 textarea {
     border: solid;
-    border-color: blueviolet;
+    border-color: rgb(206, 13, 13);
     grid-auto-rows: min-content;
     resize: none;
     grid-auto-rows: 0%;
